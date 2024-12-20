@@ -15,6 +15,16 @@ int add(int a, int b)
     return a + b;
 }
 
+int power(int a, int b)
+{
+	for (int i = 1; i < b; i++)
+	{
+		a = a * a;
+	}
+
+	return a;
+}
+
 int diff(int a, int b)
 {
 	return a - b;
@@ -42,11 +52,19 @@ int main()
 
 	cout << "a - b: " << d << endl;
 
+<<<<<<< HEAD
 	int e;
 
 	e = division(a, b);
 
 	cout << "a/b: " << e << endl;
 
+=======
+	int f;
+
+	f = power(a, b);
+
+	cout << "a in power of b: " << f << endl;
+>>>>>>> d249ae02c99dfdbde159270fdf5e304bed341ea7
     return 0;
 }
