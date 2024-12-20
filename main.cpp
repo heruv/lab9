@@ -52,19 +52,11 @@ int main()
 
 	cout << "a - b: " << d << endl;
 
-<<<<<<< HEAD
 	int e;
 
 	e = division(a, b);
 
 	cout << "a/b: " << e << endl;
 
-=======
-	int f;
-
-	f = power(a, b);
-
-	cout << "a in power of b: " << f << endl;
->>>>>>> d249ae02c99dfdbde159270fdf5e304bed341ea7
     return 0;
 }
