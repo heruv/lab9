@@ -25,6 +25,8 @@ int power(int a, int b)
 	return a;
 }
 
+void nothing() {}
+
 int diff(int a, int b)
 {
 	return a - b;
