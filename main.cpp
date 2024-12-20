@@ -5,6 +5,11 @@
 
 using namespace std;
 
+int division(int a, int b)
+{
+	return a/b;
+}
+
 int add(int a, int b)
 {
     return a + b;
@@ -36,6 +41,12 @@ int main()
     cout << "a + b: " << c << endl;
 
 	cout << "a - b: " << d << endl;
+
+	int e;
+
+	e = division(a, b);
+
+	cout << "a/b: " << e << endl;
 
     return 0;
 }
