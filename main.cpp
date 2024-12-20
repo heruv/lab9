@@ -57,6 +57,11 @@ int main()
 	e = division(a, b);
 
 	cout << "a/b: " << e << endl;
+	
+	int f;
+	
+	f = power(a, b);
 
+	cout << "a in power of b: " << f << endl;
     return 0;
 }
