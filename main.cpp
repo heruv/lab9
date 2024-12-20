@@ -8,6 +8,11 @@ int add(int a, int b)
     return a + b;
 }
 
+int diff(int a, int b)
+{
+	return a - b;
+}
+
 int main()
 {
     int a, b;
@@ -20,11 +25,16 @@ int main()
 
     cout << "a: " << a << endl << "b: " << b << endl;
 
-    int c;
+    int c, d;
 
     c = add(a , b);
 
+	d = diff(a, b);
+
     cout << "a + b: " << c << endl;
+
+	cout << "a - b: " << d << endl;
 
     return 0;
 }
+ 
