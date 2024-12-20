@@ -1,6 +1,8 @@
 #include "sdt.h"
 #include <iostream>
 
+	// this is the  educational programm
+
 using namespace std;
 
 int add(int a, int b)
